@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScaledImageView">
+        <attr name="scaleDirection" format="enum">
+            <enum name="none" value="0" />
+            <enum name="width" value="1" />
+            <enum name="height" value="2" />
+        </attr>
+        <attr name="HeightProportion" format="float" />
+        <attr name="WidthProportion" format="float" />
+    </declare-styleable>
+    <declare-styleable name="RichTextView">
+        <attr name="visibilityAtEmpty" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
